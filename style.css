@@ -158,10 +158,10 @@ body {
   
   .salik {
     border-radius: 0px;
-    max-width: 30%;
-    max-height: auto;
+    width: 300px;
+    height: 400px;
     opacity: 70%;
-  }
+  } 
  .computer {
     border-radius: 0px;
     width: 300px;
@@ -170,14 +170,14 @@ body {
   }
   .car {
     border-radius: 0px;
-    width:500px ;
-    height:300px ;
+    width: 350px ;
+    height: 250px ;
     opacity: 70%;
   }
   .guitar {
     border-radius: 0px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     opacity: 70%;
   }
   
@@ -199,13 +199,56 @@ body {
   
   /* ---  (Desktop) Groups & Items --- */
   
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 1080px) {
     section {
       padding: 0 10%;
     }
     .group {
       flex-direction: row;
     }
+    .car{
+      border-radius: 0px;
+      width:400px ;
+      height:300px ;
+      opacity: 70%;
+    }
+ 
+    .salik {
+      padding: 10%;
+      border-radius: 0px;
+      width: 300px;
+      height: 400px;
+      opacity: 70%;
+    }
+    
+  }
+  @media all and (min-width: 1400px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+    .car{
+      padding: 0 10%;
+      border-radius: 0px;
+      width:400px ;
+      height:300px ;
+      opacity: 70%;
+    }
+    .computer{
+      padding: 0 10%;
+    }
+    .guitar{
+      padding: 0 10%;
+    }
+    .salik {
+      border-radius: 0px;
+      width: 400px;
+      height: 500px;
+      opacity: 70%;
+    }
+
   }
   
   
@@ -230,6 +273,8 @@ body {
   form textarea {
     height: 160px;
   }
+  
+  
   
   
   
